@@ -2,7 +2,8 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fbf6ef">
   <script>document.documentElement.classList.add("js");</script>
   <title>Minicurso de Verbos gratuito | Prof. Flávia Rita</title>
   <meta name="description" content="Acesse de graça o Minicurso de Verbos da Prof. Flávia Rita e pare de perder pontos em concurso por erros que têm solução simples.">
@@ -16,14 +17,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css?v=6">
+  <script type="module" crossorigin src="./assets/index-KwsLaZex.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CABfloiv.css">
 </head>
 <body>
 
     <header class="topbar">
     <div class="container topbar__inner">
-      <img src="assets/img/logo.svg" alt="Professora Flávia Rita" class="topbar__logo" width="763" height="178">
-      <a href="#cadastro" class="topbar__link">Acesso gratuito</a>
+      <img src="./assets/logo-za3h8Y3E.svg" alt="Professora Flávia Rita" class="topbar__logo" width="763" height="178">
+      <a href="#cadastro-final" class="topbar__link">Acesso gratuito</a>
     </div>
   </header>
 
@@ -33,54 +35,54 @@
       <div class="container hero__grid">
 
         <div class="hero__copy">
-          <p class="eyebrow">Minicurso gratuito · Português para concursos</p>
-          <h1 class="hero__title">Os verbos que mais caem em concurso: aprenda de graça com quem mais aprova no Brasil</h1>
-          <p class="hero__sub">Acesse agora o Minicurso de Verbos da Prof. Flávia Rita e pare de perder pontos por erros que têm solução simples.</p>
+          <p class="hero__byline">
+            <picture>
+              <source type="image/webp" srcset="./assets/flavia-rita-avatar-C9WW0ih5.webp">
+              <img src="./assets/flavia-rita-avatar-BwneHIb8.jpg" alt="" width="160" height="160" class="hero__avatar">
+            </picture>
+            <span><strong>Minicurso gratuito com a <span class="nowrap">Prof. Flávia Rita</span></strong> autora da gramática <em>Português Descomplicado</em></span>
+          </p>
+          <h1 class="hero__title">Os verbos que mais caem em concurso: <span class="hero__title-rest">aprenda de graça com quem mais aprova no Brasil</span></h1>
+          <p class="hero__sub">Acesse agora o Minicurso de Verbos e pare de perder pontos por erros que têm solução simples.</p>
 
-          <form class="lead-form" id="cadastro" data-form="hero" novalidate>
+          <form class="lead-form" id="cadastro" novalidate>
             <div class="lead-form__fields">
-              <label class="field">
-                <span class="field__label">Nome</span>
-                <input type="text" name="nome" autocomplete="given-name" placeholder="Seu primeiro nome" required>
-              </label>
-              <label class="field">
-                <span class="field__label">E-mail</span>
-                <input type="email" name="email" autocomplete="email" placeholder="voce@email.com" required>
-              </label>
-              <label class="field">
-                <span class="field__label">WhatsApp</span>
-                <input type="tel" name="whatsapp" autocomplete="tel" inputmode="numeric" placeholder="(31) 99999-9999" required data-mask="phone">
-              </label>
+              <div class="field">
+                <label class="field__label" for="hero-nome">Nome</label>
+                <input id="hero-nome" type="text" name="nome" autocomplete="given-name" placeholder="Seu primeiro nome" required aria-describedby="hero-nome-erro">
+                <p class="field__error" id="hero-nome-erro"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="hero-email">E-mail</label>
+                <input id="hero-email" type="email" name="email" autocomplete="email" inputmode="email" placeholder="voce@email.com" required aria-describedby="hero-email-erro">
+                <p class="field__error" id="hero-email-erro"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="hero-whatsapp">WhatsApp <span class="field__hint">(só para avisos do minicurso)</span></label>
+                <input id="hero-whatsapp" type="tel" name="whatsapp" autocomplete="tel" inputmode="numeric" placeholder="(31) 99999-9999" required data-mask="phone" aria-describedby="hero-whatsapp-erro">
+                <p class="field__error" id="hero-whatsapp-erro"></p>
+              </div>
             </div>
             <input type="hidden" name="origem" value="lp-minicurso-verbos-hero">
             <button type="submit" class="btn btn--primary btn--block">Quero meu acesso gratuito agora</button>
-            <p class="lead-form__legal">Acesso liberado por e-mail logo após o cadastro. Seus dados seguem a nossa <a href="https://flaviarita.com/info.aspx?page=privacidade" target="_blank" rel="noopener">política de privacidade</a>.</p>
+            <p class="lead-form__legal">O acesso chega no seu e-mail logo após o cadastro. Você pode sair da lista quando quiser. Veja a <a href="https://flaviarita.com/info.aspx?page=privacidade" target="_blank" rel="noopener">política de privacidade</a>.</p>
             <p class="lead-form__feedback" role="status" aria-live="polite"></p>
           </form>
+
+          <ul class="hero__proof">
+            <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>15+ anos preparando concurseiros</span></li>
+            <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Graduada em Letras pela UFMG</span></li>
+                        <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>25 mil alunos aprovados</span></li>
+          </ul>
         </div>
 
         <div class="hero__visual">
           <div class="photo photo--hero">
             <picture>
-              <source type="image/webp" srcset="assets/img/flavia-rita-hero-640.webp 640w, assets/img/flavia-rita-hero.webp 1080w" sizes="(max-width: 980px) 460px, 480px">
-              <img src="assets/img/flavia-rita-hero.jpg" alt="Professora Flávia Rita sorrindo, de braços cruzados" width="1080" height="1350" fetchpriority="high">
+              <source type="image/webp" srcset="./assets/flavia-rita-hero-640-DZr6HHGu.webp 640w, ./assets/flavia-rita-hero-q5vCnaT0.webp 1080w" sizes="(max-width: 980px) 460px, 500px">
+              <img src="./assets/flavia-rita-hero-C4w1ku_F.jpg" alt="Professora Flávia Rita sorrindo, mostrando no celular a página do minicurso" width="1080" height="1350" fetchpriority="high">
             </picture>
           </div>
-
-          <ul class="proof-badges">
-            <li class="proof-badge">
-              <strong>15+ anos</strong>
-              <span>preparando concurseiros</span>
-            </li>
-            <li class="proof-badge">
-              <strong>Português Descomplicado</strong>
-              <span>gramática na 15ª edição</span>
-            </li>
-            <li class="proof-badge">
-                            <strong>25 mil</strong>
-              <span>alunos aprovados</span>
-            </li>
-          </ul>
         </div>
 
       </div>
@@ -184,81 +186,101 @@
         </dl>
 
       </div>
-
-            <div class="t-marquee" aria-label="Depoimentos de alunos aprovados">
+            <div class="t-marquee" role="region" aria-label="Depoimentos de alunos aprovados" tabindex="0">
         <div class="t-marquee__track">
           <div class="t-marquee__group">
             <article class="t-card">
               <div class="t-card__author">
-                <span class="t-card__avatar" aria-hidden="true"></span>
+                <span class="t-card__avatar" aria-hidden="true">BL</span>
                 <div class="t-card__who">
-                  <h3 class="t-card__name">[Nome do aluno 1]</h3>
-                  <p class="t-card__handle">Aprovado(a) em [concurso / cargo]</p>
+                  <h3 class="t-card__name">Breno Lima</h3>
+                  <p class="t-card__handle">1º lugar · Analista Judiciário do TRF-1</p>
                 </div>
               </div>
-              <p class="t-card__text">[Depoimento do aluno aprovado. Duas a quatro frases contando o que mudou no estudo de português e o resultado na prova.]</p>
+              <p class="t-card__text">Fiquei em primeiro lugar no concurso de Analista Judiciário, em Brasília, e acertei todas as 20 assertivas de Língua Portuguesa. Assistir às resoluções de questões era a parte leve do dia.</p>
             </article>
             <article class="t-card">
               <div class="t-card__author">
-                <span class="t-card__avatar" aria-hidden="true"></span>
+                <span class="t-card__avatar" aria-hidden="true">KB</span>
                 <div class="t-card__who">
-                  <h3 class="t-card__name">[Nome do aluno 2]</h3>
-                  <p class="t-card__handle">Aprovado(a) em [concurso / cargo]</p>
+                  <h3 class="t-card__name">Kenofe Tauã Bezerra</h3>
+                  <p class="t-card__handle">1º lugar · Fiscal do CRT-RN</p>
                 </div>
               </div>
-              <p class="t-card__text">[Depoimento do aluno aprovado. Duas a quatro frases contando o que mudou no estudo de português e o resultado na prova.]</p>
+              <p class="t-card__text">Recebi a notícia de que passei em primeiro lugar no concurso para fiscal do CRT-RN. Das questões de português, acertei 19. Fui aluno do Português Total e da Oficina de Redação.</p>
             </article>
             <article class="t-card">
               <div class="t-card__author">
-                <span class="t-card__avatar" aria-hidden="true"></span>
+                <span class="t-card__avatar" aria-hidden="true">SF</span>
                 <div class="t-card__who">
-                  <h3 class="t-card__name">[Nome do aluno 3]</h3>
-                  <p class="t-card__handle">Aprovado(a) em [concurso / cargo]</p>
+                  <h3 class="t-card__name">Sérgio Fasciani</h3>
+                  <p class="t-card__handle">Convocado em 5 concursos · hoje no CREA-MG</p>
                 </div>
               </div>
-              <p class="t-card__text">[Depoimento do aluno aprovado. Duas a quatro frases contando o que mudou no estudo de português e o resultado na prova.]</p>
+              <p class="t-card__text">Eu estudava desde 2017 e sempre afundava em português. Comprei o Português Total e o Fichamento, e depois disso comecei a ter resultados muito melhores. Fui convocado em 5 concursos.</p>
             </article>
             <article class="t-card">
               <div class="t-card__author">
-                <span class="t-card__avatar" aria-hidden="true"></span>
+                <span class="t-card__avatar" aria-hidden="true">WR</span>
                 <div class="t-card__who">
-                  <h3 class="t-card__name">[Nome do aluno 4]</h3>
-                  <p class="t-card__handle">Aprovado(a) em [concurso / cargo]</p>
+                  <h3 class="t-card__name">Wilberth Ribeiro</h3>
+                  <p class="t-card__handle">1º lugar · Bibliotecário da UFABC</p>
                 </div>
               </div>
-              <p class="t-card__text">[Depoimento do aluno aprovado. Duas a quatro frases contando o que mudou no estudo de português e o resultado na prova.]</p>
+              <p class="t-card__text">Passei em primeiro lugar na UFABC para o cargo de bibliotecário e já estou em exercício. O diferencial foi justamente português.</p>
             </article>
             <article class="t-card">
               <div class="t-card__author">
-                <span class="t-card__avatar" aria-hidden="true"></span>
+                <span class="t-card__avatar" aria-hidden="true">AN</span>
                 <div class="t-card__who">
-                  <h3 class="t-card__name">[Nome do aluno 5]</h3>
-                  <p class="t-card__handle">Aprovado(a) em [concurso / cargo]</p>
+                  <h3 class="t-card__name">Ana Rachel Nogueira</h3>
+                  <p class="t-card__handle">Posse no TRT-8</p>
                 </div>
               </div>
-              <p class="t-card__text">[Depoimento do aluno aprovado. Duas a quatro frases contando o que mudou no estudo de português e o resultado na prova.]</p>
+              <p class="t-card__text">Tomei posse no TRT 8. Minha nota na redação foi 9,45 e errei apenas uma questão de português. Você me fez chegar a um nível em português que me fez conquistar o meu sonho.</p>
             </article>
             <article class="t-card">
               <div class="t-card__author">
-                <span class="t-card__avatar" aria-hidden="true"></span>
+                <span class="t-card__avatar" aria-hidden="true">MC</span>
                 <div class="t-card__who">
-                  <h3 class="t-card__name">[Nome do aluno 6]</h3>
-                  <p class="t-card__handle">Aprovado(a) em [concurso / cargo]</p>
+                  <h3 class="t-card__name">Maurício Campolina</h3>
+                  <p class="t-card__handle">1º lugar · CEMIG</p>
                 </div>
               </div>
-              <p class="t-card__text">[Depoimento do aluno aprovado. Duas a quatro frases contando o que mudou no estudo de português e o resultado na prova.]</p>
+              <p class="t-card__text">Consegui ser aprovado no concurso da CEMIG em primeiro lugar. Sou muito grato às aulas animadíssimas e ao mapeamento do que cai nas provas de cada banca.</p>
+            </article>
+            <article class="t-card">
+              <div class="t-card__author">
+                <span class="t-card__avatar" aria-hidden="true">TL</span>
+                <div class="t-card__who">
+                  <h3 class="t-card__name">Tais Tatiana Lamaison</h3>
+                  <p class="t-card__handle">Posse · Técnico do Judiciário de SC</p>
+                </div>
+              </div>
+              <p class="t-card__text">Tomei posse de técnico no Poder Judiciário de Santa Catarina. Na prova da FGV, fiz 17 das 20 questões de português estudando com os seus cursos.</p>
+            </article>
+            <article class="t-card">
+              <div class="t-card__author">
+                <span class="t-card__avatar" aria-hidden="true">S</span>
+                <div class="t-card__who">
+                  <h3 class="t-card__name">Sâmyla</h3>
+                  <p class="t-card__handle">2º lugar · Enfermeira de pesquisa na EBSERH</p>
+                </div>
+              </div>
+              <p class="t-card__text">Português sempre foi um desafio para mim, e a professora me ajudou a superá-lo. Acertei 9 de 10 questões, o que garantiu minha aprovação em segundo lugar.</p>
             </article>
           </div>
         </div>
       </div>
+      <p class="t-marquee__hint" aria-hidden="true">Arraste para o lado para ver mais depoimentos</p>
     </section>
 
         <section class="section about" id="sobre">
       <div class="container about__grid">
         <div class="photo photo--about">
           <picture>
-            <source type="image/webp" srcset="assets/img/flavia-rita-sobre.webp">
-            <img src="assets/img/flavia-rita-sobre.jpg" alt="Professora Flávia Rita" width="443" height="451" loading="lazy">
+            <source type="image/webp" srcset="./assets/flavia-rita-sobre-640-D_7GcLRt.webp 640w, ./assets/flavia-rita-sobre-CCCXOKrP.webp 1080w" sizes="(max-width: 980px) 420px, 460px">
+            <img src="./assets/flavia-rita-sobre-eIC4b5E1.jpg" alt="Professora Flávia Rita sorrindo, de braços cruzados" width="1080" height="1350" loading="lazy">
           </picture>
         </div>
 
@@ -285,25 +307,28 @@
           <p>O minicurso é gratuito e o acesso chega no seu e-mail assim que você se cadastra.</p>
         </div>
 
-        <form class="lead-form lead-form--card" data-form="final" novalidate>
+        <form class="lead-form lead-form--card" novalidate>
           <p class="lead-form__title">Libere seu acesso</p>
           <div class="lead-form__fields">
-            <label class="field">
-              <span class="field__label">Nome</span>
-              <input type="text" name="nome" autocomplete="given-name" placeholder="Seu primeiro nome" required>
-            </label>
-            <label class="field">
-              <span class="field__label">E-mail</span>
-              <input type="email" name="email" autocomplete="email" placeholder="voce@email.com" required>
-            </label>
-            <label class="field">
-              <span class="field__label">WhatsApp</span>
-              <input type="tel" name="whatsapp" autocomplete="tel" inputmode="numeric" placeholder="(31) 99999-9999" required data-mask="phone">
-            </label>
+            <div class="field">
+              <label class="field__label" for="final-nome">Nome</label>
+              <input id="final-nome" type="text" name="nome" autocomplete="given-name" placeholder="Seu primeiro nome" required aria-describedby="final-nome-erro">
+              <p class="field__error" id="final-nome-erro"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="final-email">E-mail</label>
+              <input id="final-email" type="email" name="email" autocomplete="email" inputmode="email" placeholder="voce@email.com" required aria-describedby="final-email-erro">
+              <p class="field__error" id="final-email-erro"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="final-whatsapp">WhatsApp <span class="field__hint">(só para avisos do minicurso)</span></label>
+              <input id="final-whatsapp" type="tel" name="whatsapp" autocomplete="tel" inputmode="numeric" placeholder="(31) 99999-9999" required data-mask="phone" aria-describedby="final-whatsapp-erro">
+              <p class="field__error" id="final-whatsapp-erro"></p>
+            </div>
           </div>
           <input type="hidden" name="origem" value="lp-minicurso-verbos-final">
           <button type="submit" class="btn btn--primary btn--block">Quero meu acesso gratuito agora</button>
-          <p class="lead-form__legal">Seus dados seguem a nossa <a href="https://flaviarita.com/info.aspx?page=privacidade" target="_blank" rel="noopener">política de privacidade</a>. Você pode sair da lista quando quiser.</p>
+          <p class="lead-form__legal">O acesso chega no seu e-mail logo após o cadastro. Você pode sair da lista quando quiser. Veja a <a href="https://flaviarita.com/info.aspx?page=privacidade" target="_blank" rel="noopener">política de privacidade</a>.</p>
           <p class="lead-form__feedback" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -314,7 +339,7 @@
   <footer class="site-footer" data-reveal-group>
     <div class="container site-footer__top">
       <a href="#topo" class="site-footer__logo" data-reveal aria-label="Voltar ao topo">
-        <img src="assets/img/logo.svg" alt="Professora Flávia Rita" width="763" height="178">
+        <img src="./assets/logo-za3h8Y3E.svg" alt="Professora Flávia Rita" width="763" height="178">
       </a>
 
       <nav class="site-footer__nav" data-reveal aria-label="Rodapé">
@@ -330,7 +355,6 @@
         <li><a href="https://www.instagram.com/professoraflaviarita" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg></a></li>
         <li><a href="https://www.youtube.com/user/ProfessoraFlaviaRita" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .6 12a31 31 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-4.8 31 31 0 0 0-.4-4.8ZM9.7 15.1V8.9l5.8 3.1-5.8 3.1Z"/></svg></a></li>
         <li><a href="https://www.facebook.com/ProfessoraFlaviaRita" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.6h2.6l.4-3h-3V8.5c0-.9.3-1.5 1.5-1.5h1.6V4.3a21 21 0 0 0-2.3-.1c-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1Z"/></svg></a></li>
-        <li><a href="https://twitter.com/ProfaFlaviaRita" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.9 3h6.4l4.4 5.8L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5Z"/></svg></a></li>
         <li><a href="https://blog.flaviarita.com/" target="_blank" rel="noopener" aria-label="Blog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></li>
       </ul>
     </div>
@@ -340,11 +364,11 @@
     <div class="container site-footer__copy" data-reveal>
       <p>© <span data-year>2026</span> Centro Educacional Flávia Rita Ltda. Todos os direitos reservados.</p>
       <p>CNPJ 43.617.947/0001-59</p>
+      <p class="site-footer__credit">Produzido por <a href="https://studioeasy.com.br" target="_blank" rel="noopener">Studio Easy</a> 💚</p>
     </div>
   </footer>
 
-    <a href="#cadastro" class="sticky-cta" aria-hidden="true" tabindex="-1">Quero meu acesso gratuito</a>
+    <a href="#cadastro-final" class="sticky-cta" aria-hidden="true" tabindex="-1">Quero meu acesso gratuito</a>
 
-  <script src="assets/js/main.js?v=6"></script>
 </body>
 </html>
